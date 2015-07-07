@@ -1,0 +1,70 @@
+/*Ade Fadeyibi*
+ *main.css
+*/
+
+/*
+-CSS3 Box Shadow Styling
+Couldn't add these via Javascript
+*/
+#mainContainer{box-shadow:3px 3px 5px}
+#mainContainer div{box-shadow: 2px 1px 2px;}
+
+/*classes for player highlighting squares
+	Red on First Click
+	Green on Second Click
+*/
+
+.fromClass{border:1px solid red !important;}
+.toClass{border:1px solid green !important;}
+
+/*background Images for pieces*/
+
+.wknightImage{background:url('../images/wknight.gif') no-repeat scroll 23px 17px;}
+.wrookImage{background:url('../images/wrook.gif') no-repeat scroll 23px 17px;}
+.wbishopImage{background:url('../images/wbishop.gif') no-repeat scroll 23px 17px;}
+.wqueenImage{background:url('../images/wqueen.gif') no-repeat scroll 23px 17px;}
+.wkingImage{background:url('../images/wking.gif') no-repeat scroll 23px 17px;}
+.wpawnImage{background:url('../images/wpawn.gif') no-repeat scroll 23px 17px;}
+.bknightImage{background:url('../images/bknight.gif') no-repeat scroll 23px 17px;}
+.brookImage{background:url('../images/brook.gif') no-repeat scroll 23px 17px;}
+.bbishopImage{background:url('../images/bbishop.gif') no-repeat scroll 23px 17px;}
+.bqueenImage{background:url('../images/bqueen.gif') no-repeat scroll 23px 17px;}
+.bkingImage{background:url('../images/bking.gif') no-repeat scroll 23px 17px;}
+.bpawnImage{background:url('../images/bpawn.gif') no-repeat scroll 23px 17px;}
+.blackCell{background-color:brown}
+
+
+/*For overlay*/
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    -khtml-opacity: 0.85;
+    opacity: 0.8;
+    z-index: 10000;
+}
+
+.modalContent{
+	background: none repeat scroll 0 0 #666666;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: comic sans ms;
+    font-size: 47px;
+    margin: 100px auto;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+    width: 500px;
+}
+
+.modalContent a{
+	color:#fff;
+	font:16px arial;
+	padding-left:6px;
+}
